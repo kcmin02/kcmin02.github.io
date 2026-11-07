@@ -129,21 +129,10 @@ cv:
     Skills:
       - name: Languages
         summary: Python, C/C++, RISC-V Assembly
-        keywords:
-          - Python
-          - C/C++
-          - RISC-V Assembly
+        keywords: "Python, C/C++, RISC-V Assembly"
       - name: ML & Scientific Computing
         summary: PyTorch, pymatgen, e3nn, QuTiP, QICK
-        keywords:
-          - PyTorch
-          - pymatgen
-          - e3nn
-          - QuTiP
-          - QICK
+        keywords: "PyTorch, pymatgen, e3nn, QuTiP, QICK"
       - name: Tools
         summary: Git, Linux, SLURM
-        keywords:
-          - Git
-          - Linux
-          - SLURM
+        keywords: "Git, Linux, SLURM"
