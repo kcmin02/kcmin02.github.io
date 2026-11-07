@@ -1,189 +1,149 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Kyucheol Min
+  location: Cambridge, MA
+  email: mink202@mit.edu
+  website: https://kcmin02.github.io
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: kcmin02
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: kyucheol-min-175187252
+    - network: Google Scholar
+      username: 3RFgF_4AAAAJ
+    - network: ORCID
+      username: "0009-0002-3079-8845"
 
   sections:
+    Research Interests:
+      - bullet: Generative modeling and neural sampling
+      - bullet: Machine learning for molecular and cellular systems
+      - bullet: Statistical mechanics
+
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Massachusetts Institute of Technology (MIT)
+        area: Double major in Electrical Engineering and Computer Science (6-2) and Physics (8)
+        degree: Bachelor of Science (expected May 2027)
+        location: Cambridge, MA
+        date: 2027-05
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Cumulative GPA: 5.0/5.0"
+          - "Highlighted coursework: Machine Learning (Grad), Deep Learning (Grad), Discrete Probability and Stochastic Processes (Grad), Algorithms for Inference (Grad, in progress), Quantum Computation (Grad), Electromagnetics (Grad), Quantum Physics II, Statistical Physics, Fundamentals of Statistics, Large-Scale Inference (in progress), Computer Architecture"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "FrOGS: Discrete Neural Sampler for Independent Alloy Configurations Across Chemical Conditions"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - "**Kyucheol Min**"
+          - Elyssa Hofgard
+          - Tess Smidt
+        journal: NeurIPS AI4Mat Workshop (Spotlight)
+        publisher: NeurIPS AI4Mat Workshop (Spotlight)
+        date: 2026
+        url: https://arxiv.org/abs/2609.02948
+        summary: "**K. Min**, E. Hofgard, T. Smidt. arXiv:2609.02948. A multicomponent extension is in preparation for _npj Computational Materials_."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Learning Lattice Parameters from Powder X-Ray Diffraction Data Using Invariants
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Elyssa Hofgard
+          - "**Kyucheol Min**"
+          - Nofit Segal
+          - David W. Mittan-Moreau
+          - Aria Mansouri Tehrani
+          - Vanessa Oklejas
+          - Rafael Gómez-Bombarelli
+          - Jigyasa Nigam
+          - Daniel W. Paley
+          - Aaron S. Brewster
+          - Tess Smidt
+        journal: Acta Crystallographica Section A (accepted)
+        publisher: Acta Crystallographica Section A (accepted)
+        date: 2026
+        url: https://arxiv.org/abs/2607.21829
+        summary: E. Hofgard, **K. Min**, N. Segal, D. W. Mittan-Moreau, A. M. Tehrani, V. Oklejas, R. Gómez-Bombarelli, J. Nigam, D. W. Paley, A. S. Brewster, T. Smidt. arXiv:2607.21829.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    # The CV page always shows this section first, under the title "Experience".
+    Experience:
+      - company: "Atomic Architects Lab (PI: Tess Smidt)"
+        position: Undergraduate Researcher (Project Lead)
+        summary: "FrOGS: Discrete Neural Sampler Across Chemical Conditions"
+        start_date: 2026-03
+        highlights:
+          - Conceived and developed a discrete neural sampler that couples an autoregressive model to a learned continuous-time Markov chain, generating independent configurations from the Boltzmann distribution across chemical conditions
+          - Matched exact free energies of the 2D Ising model on a 20×20 lattice to within 0.05% across its critical temperature
+          - Recovered all 3 CuAu ordered phases, whereas a published neural baseline missed CuAu₃, a thermodynamically delicate phase just below the convex hull of the free energy
+          - Used as a baseline by researchers at Microsoft Research and the University of Cambridge (He et al., arXiv:2610.01739)
+
+      - company: "Uhler Lab (PI: Caroline Uhler)"
+        position: Undergraduate Researcher (Project Lead)
+        summary: Representation Learning of Single-Cell Images
+        start_date: 2026-07
+        highlights:
+          - Developed a self-supervised framework that separates perturbation-driven morphology from plate-to-plate technical variation; trained on 4.3M cells across 3,030 CRISPR gene knockouts
+          - Improved cross-plate replicate retrieval ~7× over DINOv2 and ~9× over Cell-DINO (mAP 0.0036 and 0.0027 → 0.0249) on held-out genes, and raised the share of knockouts above AUC 0.6 (22% vs 5–6% for the baselines)
+          - Confirmed the metrics were consistent on held-out genes from a function-disjoint split, suggesting generalization
+
+      - company: "Atomic Architects Lab (PI: Tess Smidt)"
+        position: Undergraduate Researcher
+        summary: Learning Lattice Parameters from Powder X-Ray Diffraction Data Using Invariants
+        start_date: 2024-09
+        end_date: 2026-06
+        highlights:
+          - Designed a transformer encoder architecture and trained it on the MP-20 dataset for bispectrum (an invariant lattice geometry descriptor) prediction from XRD patterns
+          - Showed that bispectrum intermediate representations outperform direct prediction for lattice parameter reconstruction from XRD data, reducing the mean absolute percentage error of cell lengths by ~2× on the experimental RRUFF dataset
+
+      - company: "Quantum Coherent Electronics Lab (PI: Kevin O'Brien)"
+        position: Undergraduate Researcher (Project Lead)
+        summary: Pulse Sequence Compiler for FPGA-Controlled Superconducting Qubit Experiments
+        start_date: 2025-06
+        end_date: 2026-09
+        highlights:
+          - Developed a pulse sequence compiler integrating Fermilab's Quantum Instrumentation Control Kit (QICK) into MIT's internal Python quantum framework (QCML), translating multi-channel experiment definitions and parameter sweeps into FPGA-native programs for qubit control and readout
+          - Demonstrated an end-to-end superconducting qubit characterization with the compiler, including T₁ and T₂ measurements
+          - Adopted by a team of 4 researchers at MIT Lincoln Lab for further development including multiplexing and active reset
+
+    Honors and Awards:
+      - name: 54th International Chemistry Olympiad (IChO), Gold Medal
+        title: 54th International Chemistry Olympiad (IChO), Gold Medal
+        summary: Ranked 10th of 326 participants
+        date: 2022-07
+      - name: Talent Award of Korea
+        title: Talent Award of Korea
+        summary: Awarded by the Korean Deputy Prime Minister and Minister of Education
+        date: 2022-12
+      - name: Kwanjeong Scholarship
+        title: Kwanjeong Scholarship
+        summary: Full-tuition scholarship awarded to ~3 South Korean undergraduates per year (2023–present)
+        date: 2023
+      - name: Eta Kappa Nu (HKN)
+        title: Eta Kappa Nu (HKN)
+        summary: IEEE Honor Society for Electrical Engineering and Computer Science
+        date: 2025
+
+    Talks and Presentations:
+      - bullet: Spotlight talk, NeurIPS AI4Mat Workshop (Dec 2026)
+      - bullet: Poster, Winter AI for Materials & Chemistry (AI4MC) Workshop (Dec 2026)
+
+    Teaching and Service:
+      - bullet: Mentor of students in introductory electromagnetics (8.021)
+      - bullet: Co-founder of SIGMAS, the undergraduate statistics society
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Languages
+        summary: Python, C/C++, RISC-V Assembly
+        keywords:
+          - Python
+          - C/C++
+          - RISC-V Assembly
+      - name: ML & Scientific Computing
+        summary: PyTorch, pymatgen, e3nn, QuTiP, QICK
+        keywords:
+          - PyTorch
+          - pymatgen
+          - e3nn
+          - QuTiP
+          - QICK
+      - name: Tools
+        summary: Git, Linux, SLURM
+        keywords:
+          - Git
+          - Linux
+          - SLURM
