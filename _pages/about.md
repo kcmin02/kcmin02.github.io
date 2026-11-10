@@ -21,7 +21,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a senior at MIT, double majoring in Electrical Engineering and Computer Science and Physics. I am interested in machine learning for the science of small things, from atoms to cells. Understanding the connections between statistical mechanics and machine learning fascinates me.
+I am a senior at MIT, double majoring in Electrical Engineering and Computer Science (6-2) and Physics (8). I am interested in machine learning for the science of small things, from atoms to cells. Understanding the connections between statistical mechanics and machine learning fascinates me.
 
 In the Atomic Architects Lab, advised by Elyssa Hofgard and Professor Tess Smidt, I lead FrOGS, a discrete neural sampler that generates independent alloy configurations from the Boltzmann distribution across chemical conditions. I previously worked in the same lab on learning lattice parameters from powder X-ray diffraction data using invariants. In Professor Caroline Uhler's lab, with Renzo Soatto and Viktoria Schuster, I lead a project on self-supervised representation learning of single-cell images. Previously, with Daniela Zaidenberg, I built a pulse sequence compiler for FPGA-controlled superconducting qubit experiments in Professor Kevin O'Brien's Quantum Coherent Electronics Lab and verified it on a live qubit.
 
